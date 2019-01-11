@@ -1,0 +1,27 @@
+IMPORTANT: In order for this to work you need to be working in C:/Users/Big Blue #/Documents/LEGO Creations/bigbluebot.
+Do not continue to work in the original MINDSTORMS Project Folder or these updates won't be synchronized.
+
+The first thing you want to do EVERY time you start a session is to pull the remote repo so you have the latest updates downloaded.  Launch GitGui either from the Windows Start Menu or the Task Bar.
+
+1. Go to the Repository Menu.
+2. Select Git Bash.
+3. A new window will open called MINGW64 with the path to you local repo.
+4. At the $ prompt type: git pull origin master
+5. Git will fetch all of the files from the remote repo on GitHub.
+
+You are ready to program! Remember, only work in the bigbluebot folder!
+
+Once you are done with LEGO Mindstorms, save all of your work and go back to the GitGUI.
+
+In order to keep your work synced you will need to COMMIT and PUSH the changes to GitHub.
+
+1. In the lower part of the GitGUI window press the Rescan button.
+2. You will see all of the files you changes appear in the red Unstaged Changes window.
+3. Now press the Stage Changed button and you will see those move to the green Staged Changes window. If it asks to Stage untracked changes click yes. (This will happen with a new program.)
+4. Write a short comment about what you are about to commit in the window under "Commit Message:"
+5. Click the Commit button.
+6. Click the Push button, a window will open.
+7. In the new window Click the Push button again to send everything up to Github!
+
+OMG! I get a Command Failed Error!
+If the push fails that means somebody else made a change to the repository while you were working so all you have to do is repeat the first 5 steps at the start of this document to pull down the latest changes.  Then you can go through the commit and push steps again.
